@@ -1,6 +1,6 @@
 STBU monthly reporting
 
 
-avg:trace.wordpress.request.duration{env:stbu-production}
+avg:trace.wordpress.request.duration{env:mswpstbuotis-production}
 
-sum:trace.wordpress.request.hits{env:stbu-production}.as_count()
+sum:trace.wordpress.request.hits{env:mswpstbuotis-production}.as_count()
